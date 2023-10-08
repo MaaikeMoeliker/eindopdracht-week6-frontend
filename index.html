@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Eindopdracht frontend</title>
+</head>
+
+<body>
+    <nav>
+        <img src="./logo2.webp" class="logo">
+        <a href="#home" class="link">Home</a>
+        <a href="#hotels" class="link">Hotels</a>
+        <a href="#form" class="link">Hotel boeken</a>
+        <a href="#last" class="link">Algemene voorwaarden</a>
+    </nav>
+
+    <header id="home">
+        <h1>Boek nu het beste hotel voor jou vakantie!</h1>
+        <p>Vind de beste en meest bijzondere hotels voor jou vakantie bestemming op onze website. Kijk op de wedsite
+            naar alle hotels die wij aanbieden en boek vandaag nog een hotel voor de goedkoopste prijs </p>
+        <button class="booking">Boek hier!</button>
+    </header>
+
+
+
+    <section id="hotels">
+        <h2>Hotels</h2>
+        <div class="cards">
+            <div class="card1">
+                <img src="./hotel-noorwegen.jpg&dh=533&dw=800&t=4" class="card-image">
+                <div class="information">
+                    <h3>Noorwegen</h3>
+                    <img src="./star.jpg" class="review"> <img src="./star.jpg" class="review"> <img src="./star.jpg"
+                        class="review"><img src="./star.jpg" class="review">
+                    <p>Dit prachtige hotel is in Noorwegen. Het hotel ligt in het plaatsje Hardangerfjord in Lofthus.
+                        Het is een prachtig 5 sterren hotel met een mooi zwembed lekker buffet en nog veel meer! Je kan
+                        hier overnachten voor maar leifst 88 euro pp</p>
+                    <button class="book">Boek nu!</button>
+                </div>
+            </div>
+            <div class="card2">
+                <img src="/hotel-hawaii.jpg" class="card-image">
+                <div class="information">
+                    <h3>Hawai</h3>
+                    <img src="./star.jpg" class="review"> <img src="./star.jpg" class="review"> <img src="./star.jpg"
+                        class="review"><img src="./star.jpg" class="review"><img src="./star.jpg" class="review">
+                    <p>Dit super mooie hotel bevindt zich in het prachtige land Hawai. Dit prachtige hotel ligt in het
+                        plaatsje Kauai. Het ligt aan een van de beste stranden in heel amerika. Je kan hier overnachten
+                        voor maar 40 euro pp en de vierde nacht is gratis!</p>
+                    <button class="book">Boek nu!</button>
+                </div>
+            </div>
+            <div class="card3">
+                <img src="./hotel-lapland.jpg" class="card-image">
+                <div class="information">
+                    <h3>Lapland</h3>
+                    <img src="./star.jpg" class="review"><img src="./star.jpg" class="review"><img src="./star.jpg"
+                        class="review">
+                    <p>Dit hotel bestaat uit een plek met allemaal iglo's. Het zit verstopt in de bossen in het hoge
+                        noorden van Lapland. Je kan vanuit het dak kijken naar het noorderlicht en genieten van de
+                        antartische sterrenhemel. Je kan hier overnachten voor 55 euro pp</p>
+                    <button class="book">Boek nu!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form">
+        <h2>Hotel boeken</h2>
+      <form action="./bedankt.html"></form>
+        <div class="contact">
+            <div class="fullname">
+                <div class="firstname">
+                    <label for="name">Voornaam*</label>
+                    <input required-type="text" id="voorname" name="voornaam" placeholder="Vul hier uw voornaam in...">
+                </div>
+
+                <div class="lastname">
+                    <label for="name">Achternaam*</label>
+                    <input required-type="text" id="achternaam" name="achternaam"
+                        placeholder="Vul hier uw achternaam in...">
+                </div>
+            </div>
+
+            <div class="email">
+                <label for="email">E-mail*</label>
+                <input required-type="email" id="email" name="email" placeholder="Vul hier uw E-mail aderes in...">
+            </div>
+
+            <div class="placedate">
+                <div class="place">
+                    <label for="city">Woonplaats*</label>
+                    <input required-type="text" id="city" name="city" placeholder="Vul hier uw woonplaats in...">
+                </div>
+
+                <div class="date">
+                    <label for="date">Geboortedatum*</label>
+                    <input type="date" id="date" name="date">
+                </div>
+            </div>
+
+            <div class="bookinghotel">
+                <label for="place">Boek voor*</label>
+                <select name="place" id="place">
+                    <option value="" selected disabled>Kies plek</option>
+                    <option value="noorwegen">Noorwegen</option>
+                    <option value="hawai">Hawai</option>
+                    <option value="lapland">Lapland</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="question">Toevoeging</label>
+                <input type="text" id="question" name="question" placeholder="Stel hier uw vraag...">
+            </div>
+
+            <div class="paper">
+              <div class="news"><label for="nieuwsbrief">Wilt u zich inschrijven voor onze nieuwsbrief?</label></div>  
+                <div class="yesno">
+                    <input type="radio" id="ja" name="antwoord">
+                    <label for="nieuwsbrief">Ja</label>
+
+                    <input type="radio" id="nee" name="antwoord">
+                    <label for="nieuwsbrief">Nee</label>
+                </div>
+            </div>
+
+            <div class="check">
+                <input type="checkbox" id="akkoord" name="akkoord">
+                <label for="akkoord">Ik ga akkoord met de algemene voorwaarden</label>
+            </div>
+
+            <div class="must">Alle velden met * zijn verplicht!</div>
+
+            <button type="submit" class="submit">Submit</button>
+
+
+        </div>
+
+    </section>
+
+    <footer id="last">
+        <img src="./logo2.webp">
+        <div>Privacyverklaring</div>
+        <div>Algemene voorwaarden</div>
+        <div>Cookies</div>
+    </footer>
+</body>
+
+</html>

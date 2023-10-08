@@ -1,0 +1,275 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    border-bottom: 2px solid black;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+img{
+    height:5vh;
+    width: 10vw;
+    margin-left: 5vw;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    background-color: rgb(104, 153, 119);
+    color: white;
+    border-radius: 3px;
+    text-decoration: underline;
+}
+
+a:visited{
+    background-color: rgb(104, 153, 119);
+    border-radius: 3px;
+    text-decoration: underline;
+}
+
+.spacer{
+    margin: 0 35vw;
+}
+
+.link{
+    padding: 2vh;
+    text-align: center;
+}
+
+header{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 10vh;
+    padding: 15vh;
+    font-size: 1.6rem;
+    border-bottom: 2px solid black;
+    background-image: url(https://www.postillionhotels.com/Postillion/media/Modules/Untitled-23.jpg?ext=.jpg);
+}
+
+button{
+    margin-top: 3vh;
+    margin-bottom: 10vw;
+    cursor: pointer;
+}
+
+.booking:hover{
+    background-color: rgb(104, 153, 119);
+}
+
+.booking{
+    padding:1vh 15vw;
+}
+
+h1{
+    margin-bottom: 2vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+    padding: 10vh;
+    border-bottom: 2px solid black;
+}
+
+.card1{
+    border: 2px solid black;
+    border-radius: 3px;
+    flex: 0 1 0;
+    transition: all 0.5s ease-out;
+    position: relative;
+}
+
+.card1:hover{
+    transform: scale(1.2);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card2{
+    border: 2px solid black;
+    border-radius: 3px;
+    flex: 0 1 0;
+    transition: all 0.5s ease-out;
+    position: relative;
+}
+
+.card2:hover{
+    transform: scale(1.2);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card3{
+    border: 2px solid black;
+    border-radius: 3px;
+    flex: 0 1 0;
+    transition: all 0.5s ease-out;
+    position: relative;
+}
+
+.card3:hover{
+    transform: scale(1.2);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-image{
+    height: 25vh ;
+    width: 20vw ;
+    border-bottom: 2px solid black;
+    margin-left: 0;
+}
+
+.information{
+    text-align: left;
+    padding: 1vw;
+}
+
+.review{
+    height: 3vh;
+    width: 2vw;
+    margin: 0vh;
+}
+
+h3{
+    margin-bottom: 2vh;
+}
+
+p{
+    margin-top: 3vh;
+}
+
+.book{
+    padding:1vh 3vw;
+    border-radius: 3px;
+}
+
+.book:hover{
+    cursor: pointer;
+    background-color: rgb(104, 153, 119) ;
+}
+
+footer{
+    background-color:rgb(104, 153, 119) ;
+    padding: 3vh;
+    display: flex;
+}
+
+footer div{
+    padding: 1vw;
+}
+
+.contact{
+    text-align: center;
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
+
+.fullname{
+    display:flex;
+    justify-content: start;
+    padding: 2vh;
+}
+
+.firstname{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    flex: 1 1 0;
+    padding-right: 2vw;
+}
+
+.lastname{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    flex: 1 1 0;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 2vh;
+}
+
+.placedate{
+    display: flex;
+    justify-content: start;
+    padding: 2vh;
+}
+
+.place{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+   flex: 1 1 0;
+    padding-right: 2vw;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    flex: 1 1 0;
+}
+
+.bookinghotel{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 2vh;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 2vh;
+}
+
+.paper{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 2vh;
+}
+
+.news{
+    padding-bottom: 1vh;
+}
+
+.check{
+    padding: 2vh;
+    text-align: start;
+}
+
+.must{
+    padding: 2vh;
+    text-align: start;
+}
+
+.submit{
+    cursor: pointer;
+    padding: 1vh 17vw;
+}
+
+.submit:hover{
+    background-color: rgb(104, 153, 119);
+    border-radius: 3px;
+}
+
+
